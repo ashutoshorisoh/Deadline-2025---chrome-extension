@@ -1,0 +1,11 @@
+{
+    "manifest_version": 3,
+    "name": "Ashutosh's timer",
+    "version": "1.0",
+    "description": "A live clock displayed as the new tab wallpaper",
+    "permissions": ["tabs"],
+    "chrome_url_overrides": {
+      "newtab": "background.html"
+    }
+  }
+  
